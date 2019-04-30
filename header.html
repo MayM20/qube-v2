@@ -1,0 +1,62 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="script.js"></script>
+<style>
+  /*this works with the first javascript function*/
+  .bg-transparent.scrolled{
+    background: black !important;
+  }
+  /*how to do to change content inside navbar when scrolling*/
+  .nav-item.scrolled{
+    color: black;
+  }
+</style>
+<!--NAVBAR HEADER-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-transparent fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img class="logo" src="images/graphics/white_logo_qube_eight.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!--HOME-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+
+        <!--MENU-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            MENU
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="breakfast.html">BREAKFAST</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="lunch.html">LUNCH</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="desserts.html">DESSERTS</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="drinks.html">DRINKS</a>
+          </div>
+        </li>
+        <!--RESERVATION
+        <li class="nav-item">
+            <a class="nav-link" href="#">RESERVATION</a>
+        </li>-->
+        <!--ABOUT US-->
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT US</a>
+        </li>
+        <!--C0NTACT US-->
+        <li class="nav-item">
+          <a class="nav-link" href="contact_us.html">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--end of container to center home page-->
+</nav>

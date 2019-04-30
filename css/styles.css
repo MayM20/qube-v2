@@ -1,0 +1,930 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
+/*INDEX STYLES*/
+/*padding main*/
+
+.row {
+  margin-right: 0;
+}
+.home2 {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*JUMBOTRONS*/
+.jumbotron.jumbotron-fluid.portada {
+  background: url('../images/graphics/blur_portada.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin-bottom: 0px;
+}
+.jumbotron.jumbotron-fluid.this-about {
+  height: 500px;
+  color: black;
+}
+
+/*JUMBOTRON FOR DRINKS AND CENTERED TEXT*/
+.jumbotron.jumbotron-fluid.drinks {
+  background: url('../images/graphics/IMG_4562.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 800px;
+  font-family: 'Roboto Slab', serif;
+}
+.jumbotron.jumbotron-fluid.breakfast {
+  background: url('../images/graphics/IMG_4616.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 800px;
+  font-family: 'Roboto Slab', serif;
+}
+.jumbotron.jumbotron-fluid.lunch {
+  background: url('../images/graphics/menu.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 800px;
+  font-family: 'Roboto Slab', serif;
+}
+.jumbotron.jumbotron-fluid.desserts {
+  background: url('../images/graphics/IMG_4622.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 800px;
+  font-family: 'Roboto Slab', serif;
+}
+.jumbotron.jumbotron-fluid.contact-us {
+  background: url('../images/graphics/IMG_4738.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 800px;
+  font-family: 'Roboto Slab', serif;
+}
+.container-fluid.text-center {
+  padding-top: 200px;
+}
+
+/*class to remove space between columns on home page*/
+.padding-0 {
+  padding-right: 0;
+}
+
+/*black navbar*/
+.bg-dark {
+  background: black !important;
+}
+
+/*mini-line between text*/
+hr.style1 {
+  border-top: 1px solid #8c8b8b;
+}
+
+.navbar {
+  /*background: #fff;*/
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-expand-sm {
+  transition: 500ms ease;
+
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.btn.my-2.my-sm-0 a {
+  color: black;
+}
+
+/*content inside preview menu card*/
+.card-title {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+/*TESTIMONIAL CAROUSEL*/
+.container-fluid.content {
+  background: url('../images/graphics/img4.jpg');
+}
+
+.carousel {
+  height: 300px;
+  margin: 60px 0;
+  position: relative;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  background-color: black !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: red !important;
+}
+
+.carousel-control-prev {
+  color: black;
+}
+
+/*background home page*/
+.home {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+/*fix white space*/
+.row.change {
+  margin-right: 0;
+  background: url('../images/graphics/qube_banner2.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*FOOTER STYLES*/
+.my-footer {
+  background: url('../images/graphics/footer-bg.jpg') no-repeat center;
+}
+
+.container.this-footer {
+  padding-top: 136px;
+  padding-bottom: 88px;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  line-height: 1.6;
+}
+
+.container.copy-right {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 88px;
+  color: white;
+}
+
+/*end of footer styles*/
+
+.dropdown-item p {
+  font-size: 12px;
+}
+
+/*ABOUT PAGE STYLES*/
+/*container for about us mini-explanation*/
+.col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.photo2 {
+  background-image: url('../images/graphics/IMG_5044.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: 100%;
+
+}
+
+.col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.photo3 {
+  background-image: url('../images/graphics/lotfood.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: 100%;
+
+}
+
+.container.about {
+  background-color: #fdf8f4;
+}
+
+.row.test {
+  text-align: center;
+}
+
+.container-fluid.dos {
+  position: relative;
+  width: 480px;
+  height: 320px;
+  overflow: hidden;
+}
+
+/*CONTACT-US*/
+.contact-us-form {
+  padding-right: 70px;
+}
+
+.contact-us .contact-address h2 {
+  line-height: 55px;
+  font-size: 38px;
+}
+
+.contact-us .contact-address p {
+  font-size: 20px;
+  margin: 40px 0 25px 0;
+}
+
+.contact-us .contact-address>a {
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+.contact-us .contact-address ul li {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.contact-us .contact-address ul li a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 38px;
+  text-align: center;
+  color: #cccccc;
+  margin-right: 15px;
+}
+
+.form-control {
+  border: 2px solid grey;
+}
+
+.si-content img {
+  margin-bottom: 10px;
+}
+
+.si-has-border .si-content-wrapper {
+  border: none;
+}
+
+.si-shadow-wrapper-top {
+  opacity: 0;
+}
+
+/* Form-Validation, contact us page */
+.alert-wrapper {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+
+#success,
+#error {
+  position: relative;
+  width: 500px;
+  height: 100px;
+  top: calc(50% - 50px);
+  left: calc(50% - 250px);
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+#success .wrapper,
+#error .wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#success .wrapper p,
+#error .wrapper p {
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+
+#success {
+  color: #26ace3;
+}
+
+#error {
+  color: #C9182B;
+}
+
+#error button,
+#success button {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 20px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 20px;
+}
+
+.form-validation label.error {
+  display: none !important;
+}
+
+.form-validation input.error,
+.form-validation textarea.error {
+  border: 1px solid #f03838 !important;
+}
+
+.form-contact {
+  padding-bottom: 20px;
+  border-color: grey;
+}
+
+.col-md-6.multi-horizontal.input {
+  padding-bottom: 20px;
+
+}
+
+.col-md-12.multi-horizontal.input {
+  padding-bottom: 20px;
+
+}
+
+.btn.btn-primary.btn-form {
+  background-color: grey;
+  border-color: grey;
+  font-family: 'Roboto Slab', serif;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/*ABOUT US*/
+.about-us-section {
+  margin: 0;
+  /*margin: 150px 0 170px 0;*/
+}
+
+.col-md-6.col-xs-12.section3 {
+  margin: 150px 0 170px 0;
+}
+
+.row3.change {
+  text-align: center;
+  color: white;
+  margin-right: 0;
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/graphics/IMG_4832.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 75px;
+}
+.row3.change h4{
+  padding-top: 200px;
+}
+.row2.change {
+  text-align: center;
+  color: white;
+  margin-right: 0;
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/graphics/lotfood.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  font-family: 'Roboto Slab', serif;
+}
+.row2.change h2{
+  padding-top: 150px;
+  line-height: 75px;
+  font-size: 55px;
+}
+.row2.change h4{
+  line-height: 50px;
+}
+/*margin left about us*/
+.text {
+  margin-bottom: 45px;
+  /*text-align: center;*/
+  margin-left: 40px;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+.short-banner2 {
+  background: url('../images/graphics/IMG_4938.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.short-banner2 .opacity {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 200px;
+  text-align: center;
+}
+
+.short-banner2 .opacity h2 {
+  color: white;
+  line-height: 75px;
+  font-size: 55px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.short-banner {
+  margin-right: 0;
+  background: url('../images/graphics/lotfood.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.short-banner .opacity {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 200px;
+  text-align: center;
+}
+
+.short-banner .opacity h2 {
+  color: white;
+  line-height: 75px;
+  font-size: 55px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.short-banner .opacity h4 {
+  color: white;
+  line-height: 50px;
+  font-family: 'Roboto Slab', serif;
+}
+.theme-section-title h2 {
+  line-height: 55px;
+  text-transform: capitalize;
+  font-size: 45px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 30px;
+}
+
+.theme-section-title p {
+  line-height: 32px;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.delicious-food-section .row {
+  margin-bottom: 50px;
+}
+
+.delicious-food-section .single-item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.delicious-food-section .single-item img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.delicious-food-section .devider {
+  height: 1px;
+  width: 95%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.single-item h5 {
+  margin-top: 50px;
+  font-family: 'Roboto Slab', serif;
+}
+
+/*UNDERSTANDING CONTENT SECTION*/
+.jumbotron.jumbotron-fluid.understanding {
+  background: url('../images/graphics/IMG_4696.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  height: 400px;
+}
+
+.understandingContent {
+  /*width: 80%;*/
+  padding: 50px 70px 90px 70px;
+  margin: -200px auto 100px auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  border-style: solid;
+}
+
+.understandingContent2 {
+  padding: 50px 70px 90px 70px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  border-style: solid;
+}
+
+.understandingContent2 h1 {
+  margin-bottom: 3.20rem;
+  /*font-size: 50px;*/
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.understandingContent2 h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.understandingContent h1 {
+  margin-bottom: 3.20rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.understandingContent h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.understandingContent p {
+  line-height: 2;
+}
+
+.understandingContent3{
+  /*width: 80%;*/
+  padding: 50px 70px 90px 70px;
+  margin: -200px auto 100px auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  /*border-radius: 80px;*/
+  border-style: solid;
+}
+
+/*ABOUT*/
+.container.about {
+  text-align: left;
+}
+
+.content2 {
+  margin-top: 50px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.content {
+  margin-top: 80px;
+  padding: 80px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.container.help {
+  width: 93%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.helptitle {
+  text-align: center;
+}
+
+/*(ABOUT US SECTION HOME PAGE)*/
+.about-section {
+  margin: 0;
+  /*margin: 150px 0 170px 0;*/
+}
+
+/*ABOUT US PAGE*/
+.title-banner {
+  background: url('../images/graphics/hold.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron.jumbotron-fluid.about {
+  background: url('../images/graphics/hold.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  background-color: none;
+}
+
+.title-banner .opacity {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 200px;
+  text-align: center;
+}
+
+.title-banner .opacity h2 {
+  color: white;
+  line-height: 75px;
+  font-size: 55px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.section2 {
+  max-width: 100%;
+}
+
+.abouttext {
+  /*color: white;*/
+  line-height: 20px;
+  margin-bottom: 45px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.secondbanner {
+  background: url('../images/graphics/IMG_4685.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed
+}
+
+.secondbanner .opacity {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 200px;
+  text-align: center;
+}
+
+.secondbanner .opacity h2 {
+  color: white;
+  line-height: 75px;
+  font-size: 55px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.abouttext2 {
+  color: white;
+  line-height: 20px;
+  margin-bottom: 45px;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.thridbanner {
+  background: url('../images/graphics/IMG_4832.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed
+}
+
+.thridbanner .opacity {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 200px;
+  text-align: center;
+}
+
+.thridbanner .opacity h4 {
+  color: white;
+  line-height: 75px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.solution-text {
+  color: white;
+}
+
+.col-md-6.col-xs-12.aboutrow {
+  margin: 150px 0 170px 0;
+}
+/*IMAGES INSIDE CARDS HOME PAGE*/
+/*image zoom on hover*/
+.parent{
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+.child {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #FFFFFF;
+  padding: 100px 100px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.parent:hover .child, .parent:focus .child {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bg-left {
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/graphics/IMG_4811.jpg') no-repeat center;
+  background-size: cover;
+  height: 600px;
+  font-family: 'Roboto Slab', serif;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.container:hover .col-sm bg.bg-left {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.bg-middle {
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/graphics/IMG_4696.jpg') no-repeat center;
+  background-size: cover;
+  height: 600px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.bg-right {
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/graphics/IMG_4622.jpg') no-repeat center;
+  background-size: cover;
+  height: 600px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.row.about {
+  margin-right: 0;
+}
+
+.row.padding {
+  padding-bottom: 20px;
+  margin-right: 0;
+}
+
+/*MAP STYLES*/
+.map-canvas {
+  height: 500px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /*margin-left:30px;*/
+  overflow: hidden;
+  /*border-radius:50%;*/
+
+}
+
+.row.map {
+  margin-right: 0;
+}
+/*end of map*/
+.col-md-6.contact {
+  line-height: 3px;
+}
+
+/*picture next to box card*/
+.little-pic {
+  padding-top: 20px;
+  width: 600px;
+  height: 400px;
+  background-size: 100%;
+}
+
+/*change color of body in some pages*/
+.this-body {
+  background-color: #f6eae3;
+}
+
+/*icons for vegan, vegetarian and gf*/
+.menu-item-icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: .5rem 0 -.2rem;
+  font-size: 0;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+
+.menu-item-icons .vegetarian {
+  background: #83aa70;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  margin: .5rem .5rem 0 0;
+  border-radius: 50%;
+  /*font-size: 1.8rem;*/
+  font-size: 20px;
+  text-align: center;
+  color: #f6f6f6;
+}
+
+.menu-item-icons .vegan {
+  background: orange;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  margin: .5rem .5rem 0 0;
+  border-radius: 50%;
+  /*font-size: 1.8rem;*/
+  font-size: 20px;
+  text-align: center;
+  color: #f6f6f6;
+}
+
+.menu-item-icons li {
+  display: inline-block;
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+/*end of icons for allergies*/
+
+/*positioning the price menu-item on the right*/
+.col-sm-6.dex .price{
+  float: right;
+  margin-left: 1rem;
+}
+.col-sm-6.dex h4 span{
+  display: block;
+  margin-bottom: 30px;
+}
+/*social media footer*/
+.follow-us{
+  flex-direction: row;
+  margin-top: 20px;
+}
+#follow{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-style: italic;
+}

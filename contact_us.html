@@ -1,0 +1,257 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+    </style>
+
+    <script>
+        jQuery(document).ready(function($){
+         $("#header").load("header.html");
+          $("#footer").load("footer.html");
+      });
+      </script>
+</head>
+
+<div id="header"></div>
+
+<body>
+<div class="jumbotron jumbotron-fluid contact-us">
+                <div class="container">
+                  <div class="container-fluid text-center">
+                  </div>
+                </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <!--contact us-->
+            <div class="col-md-6 contact">
+                <h1 style="font-size: 40px; font-family: 'Roboto Slab', serif;">
+                    Contact Us
+                </h1>
+                <br>
+                <hr style="border-top: 3px double;color:#333;background-color:#333; width: 10%; margin: 0;">
+                <div>
+                    <div>
+                        <h4><i>Address: 6-14 Castle St, Castle Hill NSW 2154
+                                <br>
+                                <br>Phone: (02) 8677 5085
+                                <br>
+                                <br>Email: qubecastletowers@gmail.com
+                                <br>
+                                <br> We are open: Mo-Fr 8:30 am-04:00 pm, Sa-Su 8:30 am-5:00 pm</i>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!--get in touch form-->
+            <div class="col-md-6">
+                <h1 style="font-size: 40px; font-family: 'Roboto Slab', serif;">
+                    Let's get in touch!
+                </h1>
+                <br>
+                <div class="form-contact">
+                    <form class="form-contact"><input type="hidden" data-form-email="true" value="">
+                        <div class="row">
+                            <div class="col-md-6 multi-horizontal input">
+                                <input type="text" class="form-control input" name="name" data-form-field="Name"
+                                    placeholder="Your Name" required="">
+                            </div>
+                            <div class="col-md-6 multi-horizontal input">
+                                <input type="text" class="form-control input" name="phone" data-form-field="Phone"
+                                    placeholder="Phone" required="">
+                            </div>
+                            <div class="col-md-12 multi-horizontal input">
+                                <input type="text" class="form-control input" name="email" data-form-field="Email"
+                                    placeholder="Email" required="">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control input" name="message" rows="3" data-form-field="Message"
+                                    placeholder="Message" style="resize:none"></textarea>
+                            </div>
+                            <div class="input-group-btn col-md-12" style="margin-top: 20px;">
+                                <button href="" type="submit" class="btn btn-primary btn-form">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(-33.7578678, 150.9713675), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{
+                            "featureType": "administrative",
+                            "elementType": "all",
+                            "stylers": [{
+                                "saturation": "-100"
+                            }]
+                        },
+                        {
+                            "featureType": "administrative.province",
+                            "elementType": "all",
+                            "stylers": [{
+                                "visibility": "off"
+                            }]
+                        },
+                        {
+                            "featureType": "landscape",
+                            "elementType": "all",
+                            "stylers": [{
+                                    "saturation": -100
+                                },
+                                {
+                                    "lightness": 65
+                                },
+                                {
+                                    "visibility": "on"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "poi",
+                            "elementType": "all",
+                            "stylers": [{
+                                    "saturation": -100
+                                },
+                                {
+                                    "lightness": "50"
+                                },
+                                {
+                                    "visibility": "simplified"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "road",
+                            "elementType": "all",
+                            "stylers": [{
+                                "saturation": "-100"
+                            }]
+                        },
+                        {
+                            "featureType": "road.highway",
+                            "elementType": "all",
+                            "stylers": [{
+                                "visibility": "simplified"
+                            }]
+                        },
+                        {
+                            "featureType": "road.arterial",
+                            "elementType": "all",
+                            "stylers": [{
+                                "lightness": "30"
+                            }]
+                        },
+                        {
+                            "featureType": "road.local",
+                            "elementType": "all",
+                            "stylers": [{
+                                "lightness": "40"
+                            }]
+                        },
+                        {
+                            "featureType": "transit",
+                            "elementType": "all",
+                            "stylers": [{
+                                    "saturation": -100
+                                },
+                                {
+                                    "visibility": "simplified"
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "geometry",
+                            "stylers": [{
+                                    "hue": "#ffff00"
+                                },
+                                {
+                                    "lightness": -25
+                                },
+                                {
+                                    "saturation": -97
+                                }
+                            ]
+                        },
+                        {
+                            "featureType": "water",
+                            "elementType": "labels",
+                            "stylers": [{
+                                    "lightness": -25
+                                },
+                                {
+                                    "saturation": -100
+                                }
+                            ]
+                        }
+                    ]
+                };
+
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(-33.7578678, 150.9713675),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row map">
+            <!--map Qube-->
+            <div id="map"></div>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="footer"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
